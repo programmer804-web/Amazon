@@ -97,8 +97,8 @@
 }
 
 /* box-4 */
-spand{
-    font-size: 0.5rem;
+span{
+    font-size: 1rem;
 }
 
 
@@ -142,4 +142,53 @@ spand{
 .panel-deals{
     font-size: 1rem;
     font-weight: 700;
+}
+
+.panel-all{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.panel-all i{
+    font-size: 1.2rem;
+    margin-right: 4px;
+}
+
+
+/* Hero section */
+.hero-section{
+    background-image: url("amazon-hero-section.jpg");
+    background-size: cover;
+    height: 380px;
+}
+
+/* Shop section */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    /* border: 2px solid black; */
+    background-color: white;
+    height: 400px;
+    width: 23%;
+    padding:20px 0px 15px 0px;
+    margin-top: 10px;
+}
+
+
+/* Box img */
+.box-img{
+    height:300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
 }
